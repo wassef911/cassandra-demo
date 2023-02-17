@@ -1,22 +1,24 @@
 # HOMEWORK
 
+```sh
 +----+------+---------+-------------+--------+--------+------------+-------------+
-| id | Name | borough | BuildingNum | Street | ZipCode | Phone | CuisineType |
+| id | Name | borough | BuildingNum | Street | ZipCode |   Phone    | CuisineType |
 +----+------+---------+-------------+--------+--------+------------+-------------+
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
-| | | | | | | | |
+|    |      |         |             |        |        |            |             |
+|    |      |         |             |        |        |            |             |
+|    |      |         |             |        |        |            |             |
+|    |      |         |             |        |        |            |             |
+|    |      |         |             |        |        |            |             |
 +----+------+---------+-------------+--------+--------+------------+-------------+
 
 +---------------+----------------+-----------------------+------------------------+--------------+-------+-------+
-| idRestaurant | InspectionDate | ViolationCode | ViolationDescription | CriticalFlag | Score | GRADE |
+| idRestaurant  | InspectionDate | ViolationCode         | ViolationDescription   | CriticalFlag | Score | GRADE |
 +---------------+----------------+-----------------------+------------------------+--------------+-------+-------+
-| PK | PK | | | | | |
-| (partition | (clustering | | | | | |
-| key) | key) | | | | | |
+| PK            | PK             |                       |                        |              |       |       |
+| (partition    | (clustering    |                       |                        |              |       |       |
+| key)          | key)           |                       |                        |              |       |       |
 +---------------+----------------+-----------------------+------------------------+--------------+-------+-------+
+```
 
 ## question 1: list all restaurants
 
